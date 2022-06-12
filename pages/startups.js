@@ -1,11 +1,11 @@
 import React from "react";
 import Layout from "../components/layout/Layout";
-import AboutMe from "../components/AboutMe";
+import Startups from "../components/Startups";
 
-export default function about() {
+export default function startups() {
   return (
     <Layout>
-      <AboutMe />
+      <Startups />
     </Layout>
   );
 }

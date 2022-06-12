@@ -23,11 +23,6 @@ function TechStack() {
             alt="javascript"
             />
             <img
-            src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
-            className="h-20 w-20 mx-4 my-4"
-            alt="git"
-            />
-            <img
             src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"
             className="h-20 w-20 mx-4 my-4"
             alt="nodejs"
@@ -41,6 +36,11 @@ function TechStack() {
             src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
             className="h-20 w-20 mx-4 my-4"
             alt="react"
+            />
+            <img
+            src="assets/nextjs.png"
+            className="h-20 w-20 mx-4 my-4"
+            alt="nextjs"
             />
             <img
             src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/redux/redux.png"
