@@ -2,11 +2,11 @@ import React from 'react'
 
 function TechStack() {
   return (
-    <div className='text-center'>
-        <h1 className="bg-red-500 text-3xl te rounded-md px-2 py-1 inline-block font-bold text-gray-50">
+    <div className='max-w-4xl mx-auto bg-white antialiased text-center my-12'>
+        <h1 className="bg-red-500 text-3xl rounded-md p-2 inline-block font-bold text-gray-50">
         Tech Stack
         </h1>
-        <div className="flex flex-row flex-wrap mt-8">
+        <div className="flex flex-row flex-wrap mt-4">
             <img
             src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
             className="h-20 w-20 mx-4 my-4"

@@ -2,7 +2,9 @@ import React from 'react'
 
 function Polymers() {
   return (
-    <div>Polymers</div>
+    <div className='text-center'>
+      <h1>Polymers</h1>
+    </div>
   )
 }
 

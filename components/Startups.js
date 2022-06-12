@@ -2,7 +2,9 @@ import React from 'react'
 
 function Startups() {
   return (
-    <div>Startups</div>
+    <div className='text-center'>
+      Startups
+    </div>
   )
 }
 
