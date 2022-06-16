@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Startups() {
+function Industries() {
   return (
     <div className='text-center'>
-      Startups
+      <h1>Industries</h1>
     </div>
   )
 }
 
-export default Startups
+export default Industries

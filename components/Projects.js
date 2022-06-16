@@ -3,7 +3,7 @@ import React from 'react'
 function Projects() {
   return (
     <div className='text-center'>
-      <h1>Webdevelopment projects</h1>
+      <h1>Webdevelopment Portfolio</h1>
     </div>
   )
 }

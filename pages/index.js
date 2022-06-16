@@ -10,7 +10,6 @@ export default function Home() {
       <Hero/>
       <AboutMe/>
       <TechStack/>
-      <Contact/>
     </Layout>
   )
 }

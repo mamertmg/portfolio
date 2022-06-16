@@ -3,7 +3,7 @@ import React from 'react'
 function AboutMe() {
   return (
     <div className="max-w-4xl mx-auto bg-white antialiased text-center">
-      <h1 className='bg-red-500 text-3xl rounded-md p-2 inline-block font-bold text-gray-50'>
+      <h1 className='bg-gray-200 text-3xl rounded-md p-2 inline-block font-bold text-gray-500'>
         About Me
       </h1>
       <p className='mt-4'>
