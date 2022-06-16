@@ -3,7 +3,7 @@ import React from 'react'
 function TechStack() {
   return (
     <div className='max-w-4xl mx-auto bg-white antialiased text-center my-12'>
-        <h1 className="bg-gray-200 text-3xl rounded-md p-2 inline-block font-bold text-gray-500">
+        <h1 className="bg-gray-200 text-2xl rounded-md p-2 inline-block font-bold text-gray-500">
         Tech Stack
         </h1>
         <div className="flex flex-row flex-wrap mt-4">
