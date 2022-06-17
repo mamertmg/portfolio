@@ -13,10 +13,10 @@ export default function Navbar() {
         <div className="flex flex-col">
           <Link href="/">
             <a>
-              <h1 className="font-bold text-x">
+              <h1 className="text-gray-800 font-bold">
                 Alberto Márquez
               </h1>
-              <p className="text-base font-normal text-gray-500">
+              <p className="font-normal text-gray-600">
                 Full Stack Chemical Engineer
               </p>
             </a>
@@ -28,7 +28,7 @@ export default function Navbar() {
               <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
               <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
             </div>
-            <div className={isNavOpen ? "showMenuNav" : "hidden"}>
+            <div className={isNavOpen ? "showMenuNav" : "hidden "}>
               <div className="absolute top-0 right-0 px-8 py-8" onClick={() => setIsNavOpen(false)}>
                 <svg
                   className="h-8 w-8 text-gray-600"
@@ -82,11 +82,17 @@ export default function Navbar() {
                   </svg>
                 )}
               </a>
-            </Link>
-          <Link href="/projects">
-            <a className={`text-base  ${ router.asPath === "/projects" ? "text-gray-800 font-bold" : "text-gray-600 font-normal "}`}>
-              Portfolio
-              {router.asPath === "/projects" && (
+          </Link>
+          <Link href="/business">
+            <a
+              className={`text-base  ${
+                router.asPath === "/business"
+                  ? "text-gray-800 font-bold"
+                  : "text-gray-600 font-normal "
+              }`}
+            >
+              Business{" "}
+              {router.asPath === "/business" && (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -129,16 +135,10 @@ export default function Navbar() {
               )}
             </a>
           </Link>
-          <Link href="/industries">
-            <a
-              className={`text-base  ${
-                router.asPath === "/industries"
-                  ? "text-gray-800 font-bold"
-                  : "text-gray-600 font-normal "
-              }`}
-            >
-              Industries{" "}
-              {router.asPath === "/industries" && (
+          <Link href="/projects">
+            <a className={`text-base  ${ router.asPath === "/projects" ? "text-gray-800 font-bold" : "text-gray-600 font-normal "}`}>
+              Portfolio
+              {router.asPath === "/projects" && (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -155,6 +155,8 @@ export default function Navbar() {
               )}
             </a>
           </Link>
+
+
           <Link href="/contact">
             <a
               className={`text-base  ${
@@ -201,6 +203,7 @@ export default function Navbar() {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
+        color: rgb(75 85 99)
       }
     `}</style>
     </nav>

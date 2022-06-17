@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Projects() {
+function Business() {
   return (
     <div className="max-w-4xl mx-auto bg-white antialiased text-center">
 
@@ -10,4 +10,4 @@ function Projects() {
   )
 }
 
-export default Projects
+export default Business

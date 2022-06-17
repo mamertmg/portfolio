@@ -1,11 +1,11 @@
 import React from "react";
 import Layout from "../components/layout/Layout";
-import Industries from "../components/Industries";
+import Business from "../components/Business";
 
-export default function industries() {
+export default function business() {
   return (
     <Layout>
-      <Industries />
+      <Business />
     </Layout>
   );
 }

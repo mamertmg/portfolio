@@ -4,11 +4,6 @@ import Link from "next/link";
 export default function Contact() {
   return (
     <section className="max-w-4xl mx-auto bg-white antialiased text-center my-12">
-      <h1 className="bg-gray-200 text-3xl rounded-md p-2 inline-block font-bold text-gray-500 hover:bg-red-500 hover:text-gray-50">
-        <Link href='/contact'>
-          Contact
-        </Link>
-      </h1>
       <div className="rounded-md shadow-md bg-[#02044A] p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 mt-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="md:ml-4">
