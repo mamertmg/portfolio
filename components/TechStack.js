@@ -10,52 +10,67 @@ function TechStack() {
             <img
             src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
             className="h-20 w-20 mx-4 my-4"
-            alt="html"
+            alt="HTML"
             />            
             <img
             src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
             className="h-20 w-20 mx-4 my-4"
-            alt="css"
+            alt="CSS"
             />            
             <img
             src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
             className="h-20 w-20 mx-4 my-4"
-            alt="javascript"
+            alt="Javascript"
+            />
+            <img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg"
+            className="h-20 w-20 mx-4 my-4"
+            alt="bootstrap"
+            />
+            <img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg"
+            className="h-20 w-20 mx-4 my-4"
+            alt="TailwindCSS"
             />
             <img
             src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"
             className="h-20 w-20 mx-4 my-4"
-            alt="nodejs"
+            alt="NodeJS"
             />
             <img
             src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/express/express.png"
             className="h-20 w-20 mx-4 my-4"
-            alt="express"
+            alt="Express"
             />
             <img
             src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
             className="h-20 w-20 mx-4 my-4"
-            alt="react"
+            alt="React"
             />
             <img
             src="assets/nextjs.png"
             className="h-20 w-20 mx-4 my-4"
-            alt="nextjs"
+            alt="NextJS"
             />
             <img
             src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/redux/redux.png"
             className="h-20 w-20 mx-4 my-4"
-            alt="redux state management"
+            alt="REDUX state management"
             />
             <img
             src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"
             className="h-20 w-20 mx-4 my-4"
-            alt="mysql"
+            alt="MySQL"
             />
             <img
             src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
             className="h-20 w-20 mx-4 my-4"
-            alt="mongodb"
+            alt="MongoDB"
+            />
+            <img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg"
+            className="h-20 w-20 mx-4 my-4"
+            alt="PostgreSQL"
             />
             <img
             src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
