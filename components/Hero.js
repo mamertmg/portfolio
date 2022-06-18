@@ -7,7 +7,7 @@ export default function Hero() {
         <img src="/images/background.jpg" ></img>
       </div>
       <div className="w-1/2 mx-auto my-2 py-4"> 
-          <img src='/images/avatar.jpg' class="rounded object-cover h-fit" alt="avatar"/>
+          <img src='/images/avatar.jpg' className="rounded object-cover h-fit" alt="avatar"/>
       </div>      
     </div>
 

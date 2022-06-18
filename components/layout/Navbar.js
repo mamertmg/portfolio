@@ -48,13 +48,13 @@ export default function Navbar() {
                   <a href="/aboutme">About me</a>
                 </li>
                 <li className="border-b border-gray-600 font-normal mt-8 uppercase">
-                  <a href="/projects">Portfolio</a>
+                  <a href="/business">Business</a>
                 </li>
                 <li className="border-b border-gray-600 font-normal mt-8 uppercase">
                   <a href="/polymers">Polymers</a>
                 </li>
                 <li className="border-b border-gray-600 font-normal mt-8 uppercase">
-                  <a href="/industries">Industries</a>
+                  <a href="/projects">Portfolio</a>
                 </li>
                 <li className="border-b border-gray-600 font-normal mt-8 uppercase">
                   <a href="/contact">Contact</a>
