@@ -12,7 +12,7 @@ export default function Footer() {
               Developed by
               <div className="inline-block">
                 <a
-                  className="hover:bg-red-500 hover:text-gray-50 rounded-md px-2 py-1"
+                  className="hover:bg-rose-600 hover:text-gray-50 rounded-md px-2 py-1"
                   href="https://marqueza.me"
                 >
                 Alberto Márquez

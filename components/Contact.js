@@ -1,16 +1,17 @@
 import React from "react";
 import Link from "next/link";
+
 export default function Contact() {
   return (
-    <section className="max-w-4xl md:h-screen mx-auto bg-white antialiased text-center p-12 m-12 md:p-6 md:m-6 md:mx-auto">
-      <div className="rounded-md shadow-md bg-[#02044A] p-4 md:p-4  max-w-6xl mx-auto">
+    <section className="max-w-4xl md:h-screen mx-auto bg-white antialiased text-center p-4 m-4 md:p-6 md:m-6 md:mx-auto">
+      <div className="rounded-md shadow-md bg-[#02044A] p-4 md:p-4 max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
             <header className="mt-4">
-              <h1 className="text-gray-50 font-semibold text-2xl">
+              <h1 className="text-gray-50 font-bold text-2xl">
                 Get in touch, let's talk.
               </h1>
-              <p className="font-light text-base text-gray-200 mt-2">
+              <p className="font-light text-base text-gray-50 mt-2">
                 Fill in the details and I'll get back to you.
               </p>
             </header>
@@ -91,8 +92,8 @@ export default function Contact() {
               </div>
             </div>
           </div>
-          <form className="form rounded-lg bg-white m-4 p-2 md:m-6 md:p-4 flex flex-col">
-            <label htmlFor="name" className="text-sm text-gray-600 mx-4">
+          <form className="form rounded-lg bg-white m-2 p-2 md:m-6 md:p-4 flex flex-col">
+            <label htmlFor="name" className="text-gray-600 text-sm mx-4">
               Your Name
             </label>
             <input
@@ -131,6 +132,7 @@ export default function Contact() {
           </form>
         </div>
       </div>
+
     </section>
   );
 }
