@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Intro() {
   return (
-    <div className="my-4">
-      <div className="text-center my-2">
-        <h1 className="text-4xl font-bold">What I offer</h1>     
+    <div className="   bg-gray-200">
+      <div className="text-center my-2 pt-2">
+        <h1 className="text-3xl md:text-4xl font-semibold">What I am</h1>     
         <div className="flex flex-row w-10 mx-auto my-4">
             <svg 
               xmlns="http://www.w3.org/2000/svg"
@@ -24,7 +24,7 @@ export default function Intro() {
       </div>
 
       <div className="rounded justify-center overflow-hidden md:flex md:flex-row"> 
-        <div className="w-3/4 mx-auto block text-center md:flex md:flex-row pt-4 rounded">
+        <div className="w-3/4 mx-auto block text-center md:flex md:flex-row rounded">
           <div className="mx-auto w-full md:w-1/3 py-4 md:p-1">
             <div className="md:p-4  h-20 w-20 md:h-32 md:w-32 mx-auto">
               <img src="assets/icons/handshake.png" className="" ></img>
@@ -43,7 +43,7 @@ export default function Intro() {
             </div>
             <div>
               <h1 className="text-2xl font-bold text-rose-600 my-2 ">
-                Polymers Expertise
+                Polymers Expert
               </h1>
               <p className="m-4">Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat, sed diam voluptua. At vero eos accusam et justo duo dolores</p>            
             </div>

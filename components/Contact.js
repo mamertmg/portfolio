@@ -4,6 +4,27 @@ import Link from "next/link";
 export default function Contact() {
   return (
     <section className="max-w-4xl md:h-screen mx-auto bg-white antialiased text-center p-4 m-4 md:p-6 md:m-6 md:mx-auto">
+      <div>
+          <h2 class="text-4xl font-bold text-center">
+            Contact
+          </h2>
+          <div className="flex flex-row w-10 mx-auto my-4">
+            <svg 
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              className=" h-4 w-4 text-rose-600 mx-auto" 
+              viewBox="0 0 512 512"
+            >
+            <path d="M512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256z"/></svg>
+            <svg 
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              className=" h-4 w-4 text-rose-600 mx-auto" 
+              viewBox="0 0 512 512"
+            >
+            <path d="M512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256z"/></svg>
+          </div>
+      </div>
       <div className="rounded-md shadow-md bg-[#02044A] p-4 md:p-4 max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
