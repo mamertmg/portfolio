@@ -4,7 +4,23 @@ export default function Intro() {
   return (
     <div className="my-4">
       <div className="text-center my-2">
-        <h1 className="text-4xl font-bold">What I offer</h1>        
+        <h1 className="text-4xl font-bold">What I offer</h1>     
+        <div className="flex flex-row w-10 mx-auto my-4">
+            <svg 
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              className=" h-4 w-4 text-rose-600 mx-auto" 
+              viewBox="0 0 512 512"
+            >
+            <path d="M512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256z"/></svg>
+            <svg 
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              className=" h-4 w-4 text-rose-600 mx-auto" 
+              viewBox="0 0 512 512"
+            >
+            <path d="M512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256z"/></svg>
+          </div>   
       </div>
 
       <div className="rounded justify-center overflow-hidden md:flex md:flex-row"> 
