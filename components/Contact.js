@@ -2,11 +2,11 @@ import React from "react";
 import Link from "next/link";
 export default function Contact() {
   return (
-    <section className="max-w-4xl mx-auto bg-white antialiased text-center my-12">
-      <div className="rounded-md shadow-md bg-[#02044A] p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 mt-4">
+    <section className="max-w-4xl md:h-screen mx-auto bg-white antialiased text-center p-12 m-12 md:p-6 md:m-6 md:mx-auto">
+      <div className="rounded-md shadow-md bg-[#02044A] p-4 md:p-4  max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="md:ml-4">
-            <header className="">
+          <div>
+            <header className="mt-4">
               <h1 className="text-gray-50 font-semibold text-2xl">
                 Get in touch, let's talk.
               </h1>
@@ -14,7 +14,7 @@ export default function Contact() {
                 Fill in the details and I'll get back to you.
               </p>
             </header>
-            <div className="icons-container inline-flex flex-col my-20">
+            <div className="icons-container inline-flex flex-col my-4 md:my-10">
               <div className="flex flex-row items-center space-x-6 rounded-md border border-[#02044A] hover:border hover:border-blue-500 p-4">
                 <svg 
                   xmlns="http://www.w3.org/2000/svg" 
@@ -91,7 +91,7 @@ export default function Contact() {
               </div>
             </div>
           </div>
-          <form className="form rounded-lg bg-white ml-4 p-4 flex flex-col">
+          <form className="form rounded-lg bg-white m-4 p-2 md:m-6 md:p-4 flex flex-col">
             <label htmlFor="name" className="text-sm text-gray-600 mx-4">
               Your Name
             </label>
@@ -120,12 +120,14 @@ export default function Contact() {
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="message"
             ></textarea>
-            <button
-              type="submit"
-              className="bg-blue-500 rounded-md w-1/2 mx-4 mt-8 py-2 text-gray-50 text-xs font-bold"
-            >
-              Send Message
-            </button>
+            <div className="text-center">
+              <button
+                type="submit"
+                className="bg-blue-500 rounded-md w-1/2 mx-4 mt-8 py-2 text-gray-50 text-xs font-bold"
+              >
+                Send Message
+              </button>
+            </div>
           </form>
         </div>
       </div>

@@ -19,7 +19,7 @@ export default function Intro() {
               </h1>
               <p className="m-4">Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat, sed diam voluptua. At vero eos accusam et justo duo dolores</p>            
             </div>
-            <a href="/projects" className="bg-rose-600 text-white rounded p-2">Know More</a>
+            <a href="/business" className="bg-rose-600 text-white rounded p-2">Know More</a>
           </div>
           <div className="mx-auto w-3/4 md:w-1/3 p-1">
             <div className="p-4 m-4">
@@ -31,7 +31,7 @@ export default function Intro() {
               </h1>
               <p className="m-4">Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat, sed diam voluptua. At vero eos accusam et justo duo dolores</p>            
             </div>
-            <a href="/projects" className="bg-rose-600 text-white rounded p-2">Know More</a>
+            <a href="/polymers" className="bg-rose-600 text-white rounded p-2">Know More</a>
           </div>
           <div className="mx-auto w-3/4 md:w-1/3 p-1">
             <div className="p-6 m-6">
