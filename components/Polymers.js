@@ -14,9 +14,7 @@ function Polymers() {
               <img src="img/avatar-anisha.png" class="w-16 -mt-14" alt="" />
               <h5 class="text-lg font-bold">Termoplastics</h5>
               <p class="text-sm text-darkGrayishBlue">
-                “Manage has supercharged our team’s workflow. The ability to
-                maintain visibility on larger milestones at all times keeps
-                everyone motivated.”
+                “Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat, sed diam voluptua. At vero eos accusam et justo duo dolores”
               </p>
             </div>
   
@@ -26,9 +24,7 @@ function Polymers() {
               <img src="img/avatar-ali.png" class="w-16 -mt-14" alt="" />
               <h5 class="text-lg font-bold">Thermosets</h5>
               <p class="text-sm text-darkGrayishBlue">
-                “We have been able to cancel so many other subscriptions since
-                using Manage. There is no more cross-channel confusion and
-                everyone is much more focused.”
+                “Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat, sed diam voluptua. At vero eos accusam et justo duo dolores”
               </p>
             </div>
   
@@ -38,9 +34,7 @@ function Polymers() {
               <img src="img/avatar-richard.png" class="w-16 -mt-14" alt="" />
               <h5 class="text-lg font-bold">Sustainability</h5>
               <p class="text-sm text-darkGrayishBlue">
-                “Manage has supercharged our team’s workflow. The ability to
-                maintain visibility on larger milestones at all times keeps
-                everyone motivated.”
+                “Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat, sed diam voluptua. At vero eos accusam et justo duo dolores"
               </p>
             </div>
           </div>
