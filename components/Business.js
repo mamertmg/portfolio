@@ -7,7 +7,7 @@ function Business() {
         <div class="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
           <div class="lg:text-center">
             <h2 class="text-base text-rose-600 font-semibold tracking-wide uppercase">Business Professional</h2>
-            <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">A better way to send money</p>
+            <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Strong technical background with international experience</p>
             <div className="flex flex-row w-10 mx-auto my-4">
             <svg 
               xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +26,7 @@ function Business() {
           </div>
         </div>
 
-          <div class="mt-10">
+          <div class="mt-10 pb-4 border-b-4">
             <div class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
               <div class="relative">
                 <dt>

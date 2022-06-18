@@ -8,7 +8,7 @@ export default function Hero() {
         <h1 className="animate-fade-in-down text-rose-600 text-3xl md:mt-72 md:mx-24 md:text-6xl text-center font-bold ">Hello there, welcome to my website</h1>
       </div>
       <div className="w-3/4 md:w-1/2 mx-auto my-2 py-4"> 
-          <h2 className="text-3xl md:text-4xl font-semibold text-center">This is me, nice to meet you!</h2>
+          <h2 className="text-2xl md:text-4xl font-semibold text-center">This is me, nice to meet you!</h2>
           <div className="flex flex-row w-10 mx-auto my-4 ">
             <svg 
               xmlns="http://www.w3.org/2000/svg"
@@ -25,9 +25,12 @@ export default function Hero() {
             >
             <path d="M512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256z"/></svg>
           </div>
-          <div className="w-2/3 mx-auto">
-            <img src='/images/avatar.jpg' className="rounded object-cover " alt="avatar"/>  
-            <p class="mt-4 max-w-2xl text-xl text-gray-600 text-center md:mx-auto">Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.</p>          
+          <div className="w-2/3 mx-auto text-center">
+            <img src='/images/avatar.jpg' className="rounded object-cover " alt="avatar"/>
+            <div className="m-4">
+              <a href="/aboutme" class="md:text-2xl font-bold md:mx-auto border border-transparent  rounded bg-gray-200 hover:bg-rose-600 hover:text-white ">KNOW ME</a>  
+            </div>
+                    
           </div>
 
       </div>      

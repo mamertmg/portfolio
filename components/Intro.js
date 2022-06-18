@@ -4,7 +4,7 @@ export default function Intro() {
   return (
     <div className="   bg-gray-200">
       <div className="text-center my-2 pt-2">
-        <h1 className="text-3xl md:text-4xl font-semibold">What I am</h1>     
+        <h1 className="text-2xl md:text-4xl font-semibold">What I am</h1>     
         <div className="flex flex-row w-10 mx-auto my-4">
             <svg 
               xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +33,7 @@ export default function Intro() {
               <h1 className="text-2xl font-bold text-rose-600 my-2">
                 Business Professional
               </h1>
-              <p className="m-4">Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat, sed diam voluptua. At vero eos accusam et justo duo dolores</p>            
+              <p className="m-4">International career in multinational companies for B2B industries</p>            
             </div>
             <a href="/business" className="text-gray-800 font-bold underline hover:bg-rose-600 hover:text-white rounded p-2">Know More</a>
           </div>
@@ -45,7 +45,7 @@ export default function Intro() {
               <h1 className="text-2xl font-bold text-rose-600 my-2 ">
                 Polymers Expert
               </h1>
-              <p className="m-4">Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat, sed diam voluptua. At vero eos accusam et justo duo dolores</p>            
+              <p className="m-4">Chemical engineer with proven background in the plastics / polymers industry</p>            
             </div>
             <a href="/polymers" className="text-gray-800 font-bold underline hover:bg-rose-600 hover:text-white rounded p-2">Know More</a>
           </div>
@@ -57,9 +57,9 @@ export default function Intro() {
                 <h1 className="text-2xl font-bold text-rose-600 my-2">
                   Web Developer
                 </h1>
-                <p className="m-4">Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat, sed diam voluptua. At vero eos accusam et justo duo dolores</p>            
+                <p className="m-4">Passionate coder of the MERN Stack (MongoDB, Express, React, NodeJS)</p>            
             </div>
-              <a href="/projects" className="text-gray-800 underline font-bold hover:bg-rose-600 hover:text-white rounded p-2">Know More</a>  
+              <a href="/projects" className="text-gray-800 underline font-bold hover:bg-rose-600 hover:text-white rounded-full p-2">Know More</a>  
           </div>    
         </div>  
       </div>
