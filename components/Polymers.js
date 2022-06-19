@@ -3,8 +3,8 @@ import React from 'react'
 function Polymers() {
   return (
     <div>
-        <div className="max-w-6xl h-screen px-5 mt-12 mx-auto bg-white antialiased text-center">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
+        <div className="max-w-7xl h-screen px-5 mt-12 mx-auto bg-white antialiased text-center">
+          <div className="px-4 sm:px-6 md:px-8">
             <div className="lg:text-center">
               <h2 className="text-base text-rose-600 font-semibold tracking-wide uppercase">Polymers expert</h2>
               <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Passion for plastics</p>
@@ -27,9 +27,7 @@ function Polymers() {
             </div>
           </div>
           <div className="flex flex-col mt-24 md:flex-row md:space-x-6">
-            <div
-              className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3"
-            >
+            <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3">
               <img src="img/avatar-anisha.png" className="w-16 -mt-14" alt="" />
               <h5 className="text-lg font-bold">Termoplastics</h5>
               <p className="text-sm text-darkGrayishBlue">
@@ -37,9 +35,7 @@ function Polymers() {
               </p>
             </div>
   
-            <div
-              className=" flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray  md:w-1/3"
-            >
+            <div className=" flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray  md:w-1/3">
               <img src="img/avatar-ali.png" className="w-16 -mt-14" alt="" />
               <h5 className="text-lg font-bold">Thermosets</h5>
               <p className="text-sm text-darkGrayishBlue">
@@ -47,9 +43,7 @@ function Polymers() {
               </p>
             </div>
   
-            <div
-              className=" flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3"
-            >
+            <div className=" flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3">
               <img src="images/sustainability.jpg"  className="w-36 mx-auto rounded-full" alt="sustainability"/>
               <h5 className="text-lg font-bold">Sustainability</h5>
               <p className="text-sm text-darkGrayishBlue">
@@ -57,7 +51,6 @@ function Polymers() {
               </p>
             </div>
           </div>
-
         </div>
     </div>
   )

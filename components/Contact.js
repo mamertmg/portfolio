@@ -5,9 +5,8 @@ export default function Contact() {
   return (
     <section className="max-w-4xl md:h-screen mx-auto bg-white antialiased text-center p-4 m-4 md:p-6 md:m-6 md:mx-auto">
       <div>
-          <h2 class="text-4xl font-bold text-center">
-            Contact
-          </h2>
+          <h2 className="text-base text-rose-600 font-semibold tracking-wide uppercase">Get in touch</h2>
+          <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Contact</p>
           <div className="flex flex-row w-10 mx-auto my-4">
             <svg 
               xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +29,7 @@ export default function Contact() {
           <div>
             <header className="mt-4">
               <h1 className="text-gray-50 font-bold text-2xl">
-                Get in touch, let's talk.
+                Let's talk
               </h1>
               <p className="font-light text-base text-gray-50 mt-2">
                 Fill in the details and I'll get back to you.

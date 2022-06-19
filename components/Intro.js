@@ -3,7 +3,7 @@ import React from "react";
 export default function Intro() {
   return (
     <div className="   bg-gray-200">
-      <div className="text-center my-2 pt-2">
+      <div className="text-center my-2 pt-2 ">
         <h1 className="text-2xl md:text-4xl font-semibold">What I am</h1>     
         <div className="flex flex-row w-10 mx-auto my-4">
             <svg 
