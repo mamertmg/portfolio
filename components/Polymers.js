@@ -3,7 +3,7 @@ import React from 'react'
 function Polymers() {
   return (
     <div>
-        <div className="max-w-7xl h-screen px-5 mt-12 mx-auto bg-white antialiased text-center">
+        <div className="max-w-7xl px-5 mt-12 mx-auto bg-white antialiased text-center">
           <div className="px-4 sm:px-6 md:px-8">
             <div className="lg:text-center">
               <h2 className="text-base text-rose-600 font-semibold tracking-wide uppercase">Polymers expert</h2>
@@ -26,7 +26,7 @@ function Polymers() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col mt-24 md:flex-row md:space-x-6">
+          <div className="flex flex-col pt-24 md:flex-row md:space-x-6">
             <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3">
               <img src="img/avatar-anisha.png" className="w-16 -mt-14" alt="" />
               <h5 className="text-lg font-bold">Termoplastics</h5>

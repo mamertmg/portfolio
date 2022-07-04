@@ -6,7 +6,7 @@ export default function Layout({children}) {
 
     return(
         <React.Fragment>
-            <main className="w-full">
+            <main>
                 <Navbar/>
                 <div>
                     {children}

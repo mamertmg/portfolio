@@ -4,10 +4,10 @@ export default function Hero() {
 
   return (
     <div>
-      <div className='bg-[url("../public/images/background.jpg")] h-100vh md:h-screen w-full bg-cover bg-no-repeat bg-center px-12 py-8'>
+      <div className='bg-[url("../public/images/background.jpg")] h-100vh h-screen w-full bg-cover bg-no-repeat bg-center px-12 py-8'>
         <h1 className="animate-fade-in-down text-rose-600 text-3xl md:mt-72 md:mx-24 md:text-6xl text-center font-bold ">Hello there, welcome to my website</h1>
       </div>
-      <div className="w-3/4 md:w-1/2 mx-auto my-2 py-4"> 
+      <div className="w-3/4 md:w-1/2 mx-auto my-8 py-2 border-b-4"> 
           <h2 className=" text-2xl md:text-4xl font-semibold text-center">This is me, nice to meet you!</h2>
           <div className="flex flex-row w-10 mx-auto my-4 ">
             <svg 
@@ -28,7 +28,7 @@ export default function Hero() {
           <div className="w-2/3 mx-auto text-center">
             <img src='/images/avatar.jpg' className="rounded-full w-56 h-56 object-cover mx-auto" alt="avatar"/>
             <div className="m-4">
-              <a href="/aboutme" class="md:text-2xl font-bold md:mx-auto border border-transparent  rounded bg-gray-200 hover:bg-rose-600 hover:text-white ">KNOW ME</a>  
+              <a href="/aboutme" class="text-gray-800 font-bold underline hover:bg-rose-600 hover:text-white rounded p-2">Know more about me</a>  
             </div>
                     
           </div>
