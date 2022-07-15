@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Contact() {
   return (
-    <section className="max-w-4xl md:h-screen mx-auto bg-white antialiased text-center p-4 m-4 md:p-6 md:m-6 md:mx-auto">
+    <section id="contact" className="max-w-4xl md:h-screen bg-white antialiased text-center p-4 md:p-6 mx-auto">
       <div>
           <h2 className="text-base text-rose-600 font-semibold tracking-wide uppercase">Get in touch</h2>
           <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Contact</p>
@@ -24,7 +24,7 @@ export default function Contact() {
             <path d="M512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256z"/></svg>
           </div>
       </div>
-      <div className="rounded-md shadow-md bg-[#02044A] p-4 md:p-4 max-w-6xl mx-auto">
+      <div className="rounded-xl shadow-md bg-[#02044A] p-4 md:p-4 max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
             <header className="mt-4">

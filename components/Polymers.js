@@ -2,8 +2,7 @@ import React from 'react'
 
 function Polymers() {
   return (
-    <div>
-        <div className="max-w-7xl px-5 mt-12 mx-auto bg-white antialiased text-center">
+        <div id="polymers" className="max-w-7xl w-full md:h-screen px-5 mt-12 mx-auto bg-white antialiased text-center">
           <div className="px-4 sm:px-6 md:px-8">
             <div className="lg:text-center">
               <h2 className="text-base text-rose-600 font-semibold tracking-wide uppercase">Polymers expert</h2>
@@ -52,7 +51,6 @@ function Polymers() {
             </div>
           </div>
         </div>
-    </div>
   )
 }
 

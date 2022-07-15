@@ -45,28 +45,28 @@ export default function Navbar() {
               </div>
               <ul className="flex flex-col items-center justify-between">
                 <li className="border-b border-gray-600 font-normal mt-8 uppercase">
-                  <a href="/aboutme">About me</a>
+                  <a href="#aboutme">About me</a>
                 </li>
                 <li className="border-b border-gray-600 font-normal mt-8 uppercase">
-                  <a href="/business">Business</a>
+                  <a href="/#business">Business</a>
                 </li>
                 <li className="border-b border-gray-600 font-normal mt-8 uppercase">
-                  <a href="/polymers">Polymers</a>
+                  <a href="/#polymers">Polymers</a>
                 </li>
                 <li className="border-b border-gray-600 font-normal mt-8 uppercase">
-                  <a href="/projects">Portfolio</a>
+                  <a href="/#projects">Portfolio</a>
                 </li>
                 <li className="border-b border-gray-600 font-normal mt-8 uppercase">
-                  <a href="/contact">Contact</a>
+                  <a href="/#contact">Contact</a>
                 </li>
               </ul>
             </div>
         </div>
         <div className="space-x-8 hidden md:block">
-          <Link href="/aboutme">
-              <a className={`text-base  ${ router.asPath === "/aboutme" ? "text-gray-800 font-bold" : "text-gray-600 font-normal "}`}>
+          <Link href="/#aboutme">
+              <a className={`text-base  ${ router.asPath === "/#aboutme" ? "text-gray-800 font-bold" : "text-gray-600 font-normal "}`}>
                 About me
-                {router.asPath === "/aboutme" && (
+                {router.asPath === "/#aboutme" && (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
@@ -83,16 +83,16 @@ export default function Navbar() {
                 )}
               </a>
           </Link>
-          <Link href="/business">
+          <Link href="/#business">
             <a
               className={`text-base  ${
-                router.asPath === "/business"
+                router.asPath === "/#business"
                   ? "text-gray-800 font-bold"
                   : "text-gray-600 font-normal "
               }`}
             >
               Business{" "}
-              {router.asPath === "/business" && (
+              {router.asPath === "/#business" && (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -109,16 +109,16 @@ export default function Navbar() {
               )}
             </a>
           </Link>
-          <Link href="/polymers">
+          <Link href="/#polymers">
             <a
               className={`text-base  ${
-                router.asPath === "/polymers"
+                router.asPath === "/#polymers"
                   ? "text-gray-800 font-bold"
                   : "text-gray-600 font-normal "
               }`}
             >
               Polymers{" "}
-              {router.asPath === "/polymers" && (
+              {router.asPath === "/#polymers" && (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -135,10 +135,10 @@ export default function Navbar() {
               )}
             </a>
           </Link>
-          <Link href="/projects">
-            <a className={`text-base  ${ router.asPath === "/projects" ? "text-gray-800 font-bold" : "text-gray-600 font-normal "}`}>
+          <Link href="/#projects">
+            <a className={`text-base  ${ router.asPath === "/#projects" ? "text-gray-800 font-bold" : "text-gray-600 font-normal "}`}>
               Portfolio
-              {router.asPath === "/projects" && (
+              {router.asPath === "/#projects" && (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -157,16 +157,16 @@ export default function Navbar() {
           </Link>
 
 
-          <Link href="/contact">
+          <Link href="/#contact">
             <a
               className={`text-base  ${
-                router.asPath === "/contact"
+                router.asPath === "/#contact"
                   ? "text-gray-800 font-bold"
                   : "text-gray-600 font-normal "
               }`}
             >
               Contact{" "}
-              {router.asPath === "/contact" && (
+              {router.asPath === "/#contact" && (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"

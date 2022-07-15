@@ -3,7 +3,7 @@ import React from 'react'
 function AboutMe() {
 
   return (
-    <div className="w-full">
+    <div className="w-full md:h-screen" id="aboutme">
         <section>
           <img src="/images/dus.jpg" className="object-cover md:h-64 w-full" alt="Düsseldorf city" />
         </section>

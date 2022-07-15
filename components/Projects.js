@@ -2,7 +2,7 @@ import React from 'react'
 
 function Projects() {
   return (
-    <div className="max-w-7xl mx-auto mt-12  bg-white antialiased text-center">
+    <div id="projects" className="max-w-7xl h-screen mx-auto mt-12  bg-white antialiased text-center">
         <section className=" px-4 sm:px-6 md:px-8">
             <h2 className="text-base text-rose-600 font-semibold tracking-wide uppercase">Web developer</h2>
             <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Learning is always fun</p>
