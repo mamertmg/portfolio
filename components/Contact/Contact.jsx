@@ -17,7 +17,7 @@ function Contact() {
           <a href="tel:+49 (176) 325 17693" className="p-text">+49 (176) 325 17693</a>
         </div>
       </div>
-        <div className="app__footer-form flex justify-center items-center">
+        <div className="flex flex-col justify-center items-center">
           <div className="flex justify-center items-center">
             <input className="p-text" type="text" placeholder="Your Name" name="username" />
           </div>

@@ -5,7 +5,7 @@ import { AppWrap, MotionWrap } from '../../wrapper';
 function Hero() {
 
   return (
-      <section id="hero" className='bg-[url("../public/assets/images/background.jpg")] w-full bg-cover bg-no-repeat bg-center'>
+      <section id="hero" className='bg-[url("../public/assets/images/background.jpg")] rounded-xl w-full bg-cover bg-no-repeat bg-center'>
         <div className="flex flex-row">
           <motion.div
             whileInView={{ x: [-100, 0], opacity: [0, 1] }}
@@ -23,7 +23,7 @@ function Hero() {
           <motion.div
               whileInView={{ opacity: [0, 1] }}
               transition={{ duration: 0.5, delayChildren: 0.5 }}
-              className="flex flex-col relative top-100 left-50 justify-start items-start h-screen"
+              className="flex flex-col justify-start items-start h-screen"
           >
               <img src='assets/images/avatar.jpg' className="rounded-full w-56 h-56 object-cover" alt="avatar"/>
               <a 

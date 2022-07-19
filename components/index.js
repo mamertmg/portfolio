@@ -6,7 +6,7 @@ import Business from './Business/Business';
 import Industries from './Industries/Industries';
 import Contact from './Contact/Contact';
 import Hero from './Hero/Hero';
-import Intro from './Intro/Intro';
+import Footer from './Footer/Footer';
 import Polymers from './Polymers/Polymers';
 import Projects from './Projects/Projects';
 import TechStack from './TechStack/TechStack';
@@ -20,7 +20,7 @@ export {
   Industries,
   Contact,
   Hero,
-  Intro,
+  Footer,
   Polymers,
   Projects,
   TechStack

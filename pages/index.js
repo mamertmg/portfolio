@@ -1,10 +1,9 @@
-import {Hero, Intro, AboutMe, Business, Industries, Polymers, Projects, TechStack, Contact, Navbar} from '../components'
+import {Hero, Footer, AboutMe, Business, Industries, Polymers, Projects, TechStack, Contact, Navbar} from '../components'
 
 export default function Home() {
   return (
     <div>
       <Hero/>
-      <Intro/>
       <AboutMe/>
       <Business/>
       <Industries/>
@@ -12,6 +11,7 @@ export default function Home() {
       <Projects/>
       <TechStack/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }
