@@ -15,23 +15,29 @@ import redux from '../public/assets/stack/redux-logo.png'
 import sanity from '../public/assets/stack/sanity-logo.png'
 import strapi from '../public/assets/stack/strapi-logo.png'
 import tailwind from '../public/assets/stack/tailwindcss-logo.png'
+import react from '../public/assets/stack/react-logo.png';
+import bootstrap from '../public/assets/stack/bootstrap-logo.png'
+import ejs from '../public/assets/stack/ejs-logo.png'
 
 export default {
     html,
     css,
-    express,
-    figma,
-    firebase,
+    javascript,
     git,
     github,
-    javascript,
-    mongodb,
-    mysql,
+    figma,
+    bootstrap,
+    tailwind,
+    ejs,
+    react,
     nextjs,
     node,
+    express,
+    mongodb,
+    mysql,
     postgresql,
     redux,
     sanity,
     strapi,
-    tailwind
+    firebase
 }
