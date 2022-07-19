@@ -1,24 +1,17 @@
-import Layout from '../components/layout/Layout'
-import Hero from '../components/Hero'
-import Intro from '../components/Intro'
-import AboutMe from "../components/AboutMe";
-import Business from "../components/Business";
-import Contact from "../components/Contact";
-import Polymers from "../components/Polymers";
-import Projects from "../components/Projects";
-import TechStack from '../components/TechStack'
+import {Hero, Intro, AboutMe, Business, Industries, Polymers, Projects, TechStack, Contact, Navbar} from '../components'
 
 export default function Home() {
   return (
-    <Layout>
+    <div>
       <Hero/>
       <Intro/>
       <AboutMe/>
       <Business/>
+      <Industries/>
       <Polymers/>
       <Projects/>
       <TechStack/>
       <Contact/>
-    </Layout>
+    </div>
   )
 }
