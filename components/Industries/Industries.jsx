@@ -18,57 +18,57 @@ function Industries() {
     <section id="industries" className="mx-auto antialiased text-center">
         <h2 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Industries and Customers</h2>
 
-        <div class="text-gray-600 body-font">
-          <div class="flex flex-col justify-center items-center py-12 mx-auto">
-            <div class="flex flex-wrap -m-4">
+        <div className="text-gray-600 body-font">
+          <div className="flex flex-row justify-center items-center py-12 mx-auto">
+            <div className="flex flex-wrap -m-4">
 
-              <div class="w-4/5 xl:w-1/4 md:w-1/2 p-4 mx-auto ">
+              <div className="w-4/5 xl:w-1/4 md:w-1/2 p-4 mx-auto ">
                 <motion.div
                   whileInView={{ opacity: 1 }}
                   whileHover={{ scale: 1.1 }}
                   transition={{ duration: 0.5, type: 'tween' }}
                 >
-                  <div class="bg-gray-100 p-6 rounded-3xl">
-                    <img class="h-40 rounded w-full object-cover object-center mb-6" src="/assets/industries/automotive-logo.png " alt="content"/>
-                    <h3 class="tracking-widest text-red-500 text-xs font-medium title-font">AUTOMOTIVE</h3>
+                  <div className="bg-gray-100 p-6 rounded-3xl">
+                    <img className="h-40 rounded w-full object-cover object-center mb-6" src="/assets/industries/automotive-logo.png " alt="content"/>
+                    <h3 className="tracking-widest text-red-500 text-xs font-medium title-font">AUTOMOTIVE</h3>
                   </div>
                   </motion.div>
               </div>
 
-              <div class="w-4/5 xl:w-1/4 md:w-1/2 p-4 mx-auto">
+              <div className="w-4/5 xl:w-1/4 md:w-1/2 p-4 mx-auto">
                 <motion.div
                     whileInView={{ opacity: 1 }}
                     whileHover={{ scale: 1.1 }}
                     transition={{ duration: 0.5, type: 'tween' }}
                   >
-                <div class="bg-gray-100 p-6 rounded-3xl">
-                  <img class="h-40 rounded w-full object-cover object-center mb-6" src="/assets/industries/appliances-logo.png" alt="content"/>
-                  <h3 class="tracking-widest text-red-500 text-xs font-medium title-font">APPLIANCES</h3>
+                <div className="bg-gray-100 p-6 rounded-3xl">
+                  <img className="h-40 rounded w-full object-cover object-center mb-6" src="/assets/industries/appliances-logo.png" alt="content"/>
+                  <h3 className="tracking-widest text-red-500 text-xs font-medium title-font">APPLIANCES</h3>
                 </div>
                 </motion.div>
               </div>
 
-              <div class="w-4/5 xl:w-1/4 md:w-1/2 p-4 mx-auto">
+              <div className="w-4/5 xl:w-1/4 md:w-1/2 p-4 mx-auto">
                 <motion.div
                     whileInView={{ opacity: 1 }}
                     whileHover={{ scale: 1.1 }}
                     transition={{ duration: 0.5, type: 'tween' }}
                   >
-                  <div class="bg-gray-100 p-6 rounded-3xl">
-                    <img class="h-40 rounded w-full object-cover object-center mb-6" src="/assets/industries/e-e-logo.png" alt="content"/>
-                    <h3 class="tracking-widest text-red-500 text-xs font-medium title-font">ELECTRICAL AND ELECTRONICS</h3>
+                  <div className="bg-gray-100 p-6 rounded-3xl">
+                    <img className="h-40 rounded w-full object-cover object-center mb-6" src="/assets/industries/e-e-logo.png" alt="content"/>
+                    <h3 className="tracking-widest text-red-500 text-xs font-medium title-font">ELECTRICAL AND ELECTRONICS</h3>
                   </div>
                 </motion.div>
               </div>
-              <div class="w-4/5 xl:w-1/4 md:w-1/2 p-4 mx-auto">
+              <div className="w-4/5 xl:w-1/4 md:w-1/2 p-4 mx-auto">
                 <motion.div
                     whileInView={{ opacity: 1 }}
                     whileHover={{ scale: 1.1 }}
                     transition={{ duration: 0.5, type: 'tween' }}
                   >
-                <div class="bg-gray-100 p-6 rounded-3xl">
-                  <img class="h-40 rounded w-full object-cover object-center mb-6" src="/assets/industries/insulation-logo.png" alt="content"/>
-                  <h3 class="tracking-widest text-red-500 text-xs font-medium title-font">INSULATION</h3>
+                <div className="bg-gray-100 p-6 rounded-3xl">
+                  <img className="h-40 rounded w-full object-cover object-center mb-6" src="/assets/industries/insulation-logo.png" alt="content"/>
+                  <h3 className="tracking-widest text-red-500 text-xs font-medium title-font">INSULATION</h3>
                 </div>
                 </motion.div>
               </div>

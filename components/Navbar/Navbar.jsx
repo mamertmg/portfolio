@@ -20,7 +20,7 @@ export default function Navbar() {
             </a>
         </div>
         <ul className="md:flex md:flex-1 md:justify-end md:items-end list-none hidden">
-        {[ 'about', 'business', 'industries', 'polymers', 'projects', 'techstack', 'contact'].map((item) => (
+        {[ 'about', 'business', 'industries', 'polymers', 'projects', 'stack', 'contact'].map((item) => (
           <li className="flex flex-row justify-center items-center pointer m-2" key={`link-${item}`}>
             <a className="uppercase ease-in-out transition-all duration-300 text-gray-600 hover:font-bold hover:text-rose-600" href={`#${item}`}>{item}</a>
           </li>
@@ -34,15 +34,15 @@ export default function Navbar() {
             <motion.div
               whileInView={{ x: [300, 0] }}
               transition={{ duration: 0.85, ease: 'easeOut' }}
-              className="fixed top-0 bottom-0 left-0 right-0 z-5 bg-gray-200"
+              className="relative top-0 left-0 bottom-0 right-0 bg-gray-200 px-5 py-5"
             >
               <HiX
                 className="w-8 h-8 relative flex md:hidden rounded-full bg-rose-600 text-white" 
                 onClick={() => setToggle(false)} />
-              <ul>
-                {['about', 'business', 'industries', 'polymers', 'projects','techstack', 'contact'].map((item) => (
+              <ul className="">
+                {['about', 'business', 'industries', 'polymers', 'projects','stack', 'contact'].map((item) => (
                   <li key={item}>
-                    <a className="uppercase ease-in-out transition-all duration-300 text-gray-600 hover:font-bold hover:text-rose-600" href={`#${item}`} onClick={() => setToggle(false)}>
+                    <a className=" uppercase transition-colors duration-200 transform text-gray-600 hover:font-bold hover:text-rose-600" href={`#${item}`} onClick={() => setToggle(false)}>
                       {item}
                     </a>
                   </li>
