@@ -34,12 +34,15 @@ export default function Navbar() {
             <motion.div
               whileInView={{ x: [0, 0] }}
               transition={{ duration: 0.85, ease: 'easeOut' }}
-              className="bg-gray-200 w-full block md:hidden py-2 px-3 h-screen fixed top-0 bottom-0 right-0 z-50"
-            >
-              <HiX
-                className="w-6 h-6 rounded-full bg-rose-600 text-white"
-                onClick={() => setToggle(false)} />
-              <ul className="my-5">
+              className="bg-gray-200 w-full block md:hidden  py-2 px-3 h-screen fixed top-0 bottom-0 right-0 z-50"
+            > 
+              <div className="flex items-end">
+                <HiX
+                  className="w-6 h-6 rounded-full bg-rose-600 text-white"
+                  onClick={() => setToggle(false)} />                
+              </div>
+
+              <ul className="my-5 flex flex-col items-end">
                 {['about', 'business', 'industries', 'polymers', 'projects','stack', 'contact'].map((item) => (
                   <li className="my-2" key={item}>
                     <a className=" uppercase transition-colors duration-200 transform text-gray-600 hover:font-bold hover:text-rose-600" href={`#${item}`} onClick={() => setToggle(false)}>
