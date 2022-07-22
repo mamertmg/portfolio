@@ -26,22 +26,22 @@ export default function Navbar() {
           </li>
         ))}
         </ul>
-        <div >
+        <div classname="w-24 h-24 relative flex justify-center items-center">
           <HiMenuAlt4 
-            className="w-8 h-8 relative flex  md:hidden rounded-full bg-rose-600 text-white"
+            className="w-6 h-6 md:hidden rounded-full bg-rose-600 text-white" 
             onClick={() => setToggle(true)} />
           {toggle && (
             <motion.div
-              whileInView={{ x: [300, 0] }}
+              whileInView={{ x: [0, 0] }}
               transition={{ duration: 0.85, ease: 'easeOut' }}
-              className="relative top-0 left-0 bottom-0 right-0 bg-gray-200 px-5 py-5"
+              className="bg-gray-200 w-full block md:hidden py-2 px-3 h-screen fixed top-0 bottom-0 right-0 z-50"
             >
               <HiX
-                className="w-8 h-8 relative flex md:hidden rounded-full bg-rose-600 text-white" 
+                className="w-6 h-6 rounded-full bg-rose-600 text-white"
                 onClick={() => setToggle(false)} />
-              <ul className="">
+              <ul className="my-5">
                 {['about', 'business', 'industries', 'polymers', 'projects','stack', 'contact'].map((item) => (
-                  <li key={item}>
+                  <li className="my-2" key={item}>
                     <a className=" uppercase transition-colors duration-200 transform text-gray-600 hover:font-bold hover:text-rose-600" href={`#${item}`} onClick={() => setToggle(false)}>
                       {item}
                     </a>
@@ -50,7 +50,7 @@ export default function Navbar() {
               </ul>
             </motion.div>
           )}
-        </div>        
+        </div>     
       </div>
     </nav>
   );

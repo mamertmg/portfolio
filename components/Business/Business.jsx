@@ -54,11 +54,6 @@ function Business() {
             transition={{ duration: 1 }}
             className="md:flex"
         >
-          <motion.div
-            whileInView={{ opacity: 1 }}
-            whileHover={{ scale: 1.1 }}
-            transition={{ duration: 0.5, type: 'tween' }}
-          >
             <div className="flex flex-row m-2 md:m-6">
               <p className="text-left w-20 text-rose-600 font-bold mr-1">2020 - 2022</p>
               <div className='flex flex-col justify-start items-start'>
@@ -68,13 +63,6 @@ function Business() {
                 </a>
               </div>          
             </div> 
-          </motion.div>
-
-          <motion.div
-            whileInView={{ opacity: 1 }}
-            whileHover={{ scale: 1.1 }}
-            transition={{ duration: 0.5, type: 'tween' }}
-          >
             <div className="flex flex-row m-2 md:m-6">
               <p className="text-left w-20 text-rose-600 font-bold mr-1">2014 - 2019</p>
               <div className='flex flex-col justify-start items-start'>
@@ -84,13 +72,6 @@ function Business() {
                 </a>
               </div>          
             </div> 
-          </motion.div>
-
-          <motion.div
-            whileInView={{ opacity: 1 }}
-            whileHover={{ scale: 1.1 }}
-            transition={{ duration: 0.5, type: 'tween' }}
-          >
             <div className="flex flex-row m-2 md:m-6">
                 <p className="text-left w-20 text-rose-600 font-bold mr-1">2013 - 2014</p>
               <div className='flex flex-col justify-start items-start'>
@@ -100,12 +81,6 @@ function Business() {
                 </a>
               </div>          
             </div> 
-          </motion.div>
-          <motion.div
-            whileInView={{ opacity: 1 }}
-            whileHover={{ scale: 1.1 }}
-            transition={{ duration: 0.5, type: 'tween' }}
-          >
             <div className="flex flex-row m-2 md:m-6">
                 <p className="text-left w-20 text-rose-600 font-bold mr-1">2018 - 2013</p>
               <div className='flex flex-col justify-start items-start'>
@@ -115,7 +90,6 @@ function Business() {
                 </a>
               </div>          
             </div>              
-          </motion.div>
    
         </motion.div>
       </section>
