@@ -1,4 +1,3 @@
-import NavigationDots from './NavigationDots/NavigationDots';
 import SocialMedia from './SocialMedia/SocialMedia';
 import Navbar from './Navbar/Navbar';
 import AboutMe from './AboutMe/AboutMe';
@@ -12,7 +11,6 @@ import Projects from './Projects/Projects';
 import TechStack from './TechStack/TechStack';
 
 export {
-  NavigationDots,
   SocialMedia,
   Navbar,
   AboutMe,

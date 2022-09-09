@@ -1,8 +1,8 @@
-import {Hero, Footer, AboutMe, Business, Industries, Polymers, Projects, TechStack, Contact, Navbar} from '../components'
+import {Hero, Footer, AboutMe, Business, Industries, Polymers, Projects, TechStack, Contact} from '../components'
 
 export default function Home() {
   return (
-    <div>
+    <main>
       <Hero/>
       <AboutMe/>
       <Business/>
@@ -12,6 +12,6 @@ export default function Home() {
       <TechStack/>
       <Contact/>
       <Footer/>
-    </div>
+    </main>
   )
 }
