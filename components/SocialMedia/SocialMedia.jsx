@@ -2,12 +2,14 @@ import React from 'react';
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
 
 const SocialMedia = () => (
-  <div className="flex justify-center items-center flex-col pl-2">
-    <a href='https://github.com/mamertmg' className='w-6 h-6 md:h-8 md:w-8 rounded-full bg-white border-gray-400 transition-all duration-500 ease-in-out m-2 '>
-      <BsGithub className='w-6 h-6 md:h-8 md:w-8 fill-gray-600 hover:fill-rose-600 '/>
-    </a>
-    <a href="https://www.linkedin.com/in/marquezalberto/" className='w-6 h-6  md:h-8 md:w-8 rounded-full bg-white border-gray-400 transition-all duration-500 ease-in-out m-2'>
-      <BsLinkedin  className='w-6 h-6 md:h-8 md:w-8 fill-gray-600 hover:fill-rose-600 '/>
+  <div className="justify-center items-center mx-auto block md:flex md:flex-row my-2">
+    <button href='https://github.com/mamertmg' className='h-6 w-64 flex flex-row justify-center transition-all duration-500 ease-in-out m-4'>
+      <h2>View my Github profile</h2>
+      <BsGithub className='w-6 h-6 ml-4'/>
+    </button>
+    <a href="https://www.linkedin.com/in/marquezalberto/" className='h-6 w-64 justify-center flex flex-row transition-all duration-500 ease-in-out m-4'>
+      <h2>View my Linkedin profile</h2>
+      <BsLinkedin  className='w-6 h-6 ml-4'/>
     </a>
   </div>
 );

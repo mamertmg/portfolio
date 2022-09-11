@@ -1,20 +1,24 @@
 import React from 'react'
 import { motion } from 'framer-motion';
-import { AppWrap, MotionWrap } from '../../wrapper';
+import { MotionWrap } from '../../wrapper';
 
 function Business() {
   return (
-    <div id="business" className=" bg-white antialiased text-center">
-      <h2 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Skills and Experience</h2>
-      <section className='w-full md:flex flew-col md:flew-row md:flex-wrap  justify-evenly my-4 md:my-20'>
-        <div className="flex justify-center items-center my-4 md:m-6">
+    <section id="services" className="container mx-auto min-h-screen text-center py-2 sm:py-4 lg:py-12">
+      <h2 className="mt-6 text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Skills and Experience</h2>
+      <div className='w-full md:flex flew-col md:flew-row md:flex-wrap justify-evenly my-4 md:my-20'>
+        <div className="flex justify-center items-center my-4 md:my-6">
             <motion.div
               whileInView={{ opacity: 1 }}
               whileHover={{ scale: 1.1 }}
               transition={{ duration: 0.5, type: 'tween' }}
             >
               <img src='assets/images/kam.png' className='w-20 h-20 md:w-40 md:h-40 mx-auto' alt='Key Account Management' />
-              <h2 className="font-bold" >Account Management</h2>
+              <div className='flex flex-col flex-wrap'>
+                <h2 className="font-bold" >Account Management</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              </div>
+
             </motion.div>
         </div>
         <div className="flex justify-center items-center my-4 md:m-6">
@@ -47,7 +51,7 @@ function Business() {
             <h2 className="font-bold" >Technical Expert</h2>
           </motion.div>
         </div>
-      </section>
+      </div>
       <section className="flex w-full flex-wrap justify-evenly my-20">
         <motion.div
             whileInView={{ opacity: [0, 1] }}
@@ -93,8 +97,8 @@ function Business() {
    
         </motion.div>
       </section>
-    </div>
+    </section>
   )
 }
 
-export default AppWrap(MotionWrap(Business),'business');
+export default MotionWrap(Business);

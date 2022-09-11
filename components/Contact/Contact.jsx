@@ -1,9 +1,9 @@
 import React from "react";
-import { AppWrap, MotionWrap } from '../../wrapper';
+import { MotionWrap } from '../../wrapper';
 
 function Contact() {
   return (
-    <section id="contact" className="antialiased text-center">
+    <section id="contact" className="container mx-auto min-h-screen text-center py-10 sm:py-16 lg:py-24">
       <div class="w-full max-w-2xl my-12 px-6 py-6 md:py-12 mx-auto bg-white rounded-md shadow-md dark:bg-gray-800">
           <h2 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Take a coffee and chat with me</h2>
           <div class="grid grid-cols-1 gap-6 mt-6 sm:grid-cols-2 md:grid-cols-2">
@@ -50,4 +50,4 @@ function Contact() {
   );
 }
 
-export default AppWrap(MotionWrap(Contact),'contact', 'bg-gray-200');
+export default MotionWrap(Contact);

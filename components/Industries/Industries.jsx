@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import { motion } from 'framer-motion';
-import { AppWrap, MotionWrap } from '../../wrapper';
+import { MotionWrap } from '../../wrapper';
 import {customers} from '../../constants/index'
 import { HiChevronLeft, HiChevronRight } from 'react-icons/hi';
 
@@ -15,66 +15,55 @@ function Industries() {
   };
 
   return (
-    <section id="industries" className="mx-auto antialiased text-center">
-        <h2 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Industries and Customers</h2>
-
-        <div className="text-gray-600 body-font">
-          <div className="flex flex-row justify-center items-center py-12 mx-auto">
-            <div className="flex flex-wrap -m-4">
-
-              <div className="w-4/5 xl:w-1/4 md:w-1/2 p-4 mx-auto ">
-                <motion.div
-                  whileInView={{ opacity: 1 }}
-                  whileHover={{ scale: 1.1 }}
-                  transition={{ duration: 0.5, type: 'tween' }}
-                >
-                  <div className="bg-gray-100 p-6 rounded-3xl">
+    <section id="industries" className="container mx-auto min-h-screen text-center py-2 sm:py-4 lg:py-12">
+        <h2 className="mt-6 text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Industries and Customers</h2>
+          <div className="flex flex-row flex-wrap justify-center items-center py-2 md:py-12 mx-auto">
+              <motion.div
+                whileInView={{ opacity: 1 }}
+                whileHover={{ scale: 1.1 }}
+                transition={{ duration: 0.5, type: 'tween' }}
+                className="w-4/5 md:w-1/4 p-4 mx-auto "
+              >
+                  <div className="p-6 rounded-3xl">
                     <img className="h-40 rounded w-full object-cover object-center mb-6" src="/assets/industries/automotive-logo.png " alt="content"/>
                     <h3 className="tracking-widest text-red-500 text-xs font-medium title-font">AUTOMOTIVE</h3>
                   </div>
-                  </motion.div>
-              </div>
+              </motion.div>
 
-              <div className="w-4/5 xl:w-1/4 md:w-1/2 p-4 mx-auto">
-                <motion.div
-                    whileInView={{ opacity: 1 }}
-                    whileHover={{ scale: 1.1 }}
-                    transition={{ duration: 0.5, type: 'tween' }}
-                  >
-                <div className="bg-gray-100 p-6 rounded-3xl">
+              <motion.div
+                whileInView={{ opacity: 1 }}
+                whileHover={{ scale: 1.1 }}
+                transition={{ duration: 0.5, type: 'tween' }}
+                className="w-4/5 md:w-1/4 p-4 mx-auto"
+              >
+                <div className="p-6 rounded-3xl">
                   <img className="h-40 rounded w-full object-cover object-center mb-6" src="/assets/industries/appliances-logo.png" alt="content"/>
                   <h3 className="tracking-widest text-red-500 text-xs font-medium title-font">APPLIANCES</h3>
                 </div>
-                </motion.div>
-              </div>
-
-              <div className="w-4/5 xl:w-1/4 md:w-1/2 p-4 mx-auto">
-                <motion.div
+              </motion.div>
+              <motion.div
                     whileInView={{ opacity: 1 }}
                     whileHover={{ scale: 1.1 }}
                     transition={{ duration: 0.5, type: 'tween' }}
-                  >
-                  <div className="bg-gray-100 p-6 rounded-3xl">
+                    className="w-4/5 md:w-1/4 p-4 mx-auto"
+              >
+                  <div className="p-6 rounded-3xl">
                     <img className="h-40 rounded w-full object-cover object-center mb-6" src="/assets/industries/e-e-logo.png" alt="content"/>
                     <h3 className="tracking-widest text-red-500 text-xs font-medium title-font">ELECTRICAL AND ELECTRONICS</h3>
                   </div>
                 </motion.div>
-              </div>
-              <div className="w-4/5 xl:w-1/4 md:w-1/2 p-4 mx-auto">
                 <motion.div
                     whileInView={{ opacity: 1 }}
                     whileHover={{ scale: 1.1 }}
                     transition={{ duration: 0.5, type: 'tween' }}
+                    className="w-4/5 md:w-1/4 p-4 mx-auto"
                   >
                 <div className="bg-gray-100 p-6 rounded-3xl">
                   <img className="h-40 rounded w-full object-cover object-center mb-6" src="/assets/industries/insulation-logo.png" alt="content"/>
                   <h3 className="tracking-widest text-red-500 text-xs font-medium title-font">INSULATION</h3>
                 </div>
                 </motion.div>
-              </div>
-            </div>
           </div>
-        </div>
         <motion.div
             whileInView={{ opacity: 1 }}
             whileHover={{ scale: 1.1 }}
@@ -101,4 +90,4 @@ function Industries() {
   );
 }
 
-export default AppWrap(MotionWrap(Industries),'industries', 'bg-gray-200');
+export default MotionWrap(Industries);

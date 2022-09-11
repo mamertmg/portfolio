@@ -1,13 +1,13 @@
 import React from 'react'
-import { AppWrap, MotionWrap } from '../../wrapper';
+import { MotionWrap } from '../../wrapper';
 import { AiFillEye, AiFillGithub } from 'react-icons/ai';
 import { motion } from 'framer-motion';
 
 function Projects() {
   return (
-    <section id="projects" className="antialiased text-center">
+    <section id="projects" className="container mx-auto md:h-screen text-center py-2 sm:py-4 lg:py-12">
 
-        <h2 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Learning is always fun</h2>
+        <h2 className="mt-6 text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">My projects</h2>
         <div className="flex flex-wrap shadow-lg rounded-lg cursor-pointer m-auto">
             <motion.div
             animate={{ y: 0, opacity: 1 }}
@@ -34,14 +34,9 @@ function Projects() {
                             </a>
                         </motion.div>
                     </div>
-                    <div className="app__work-content app__flex">
-                    <h4 className="bold-text">Yelp Camp</h4>
-                    <p className="p-text" style={{ marginTop: 10 }}>Description</p>
-
-                    <div className="app__work-tag app__flex">
+                        <h4 className="bold-text">Yelp Camp</h4>
+                        <p className="p-text" style={{ marginTop: 10 }}>Description</p>
                         <p className="p-text">EJS</p>
-                    </div>
-            </div>
                 </div>
             </motion.div>
         </div>
@@ -49,4 +44,4 @@ function Projects() {
   )
 }
 
-export default AppWrap(MotionWrap(Projects),'projects', 'bg-gray-200');
+export default MotionWrap(Projects);

@@ -1,13 +1,13 @@
 import React from 'react'
-import { AppWrap, MotionWrap } from '../../wrapper';
+import { MotionWrap } from '../../wrapper';
 
 function Polymers() {
   return (
-        <div id="polymers" className=" bg-white antialiased text-center">
-          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Passion for plastics</p>
-          <section class="container text-gray-600 body-font mt-4">
-            <div class="flex flex-wrap">
-                <div class="flex flex-wrap w-1/2">
+        <div id="polymers" className="container mx-auto min-h-screen text-center py-2 sm:py-4 lg:py-12">
+          <h2 className="mt-6 text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Passion for plastics</h2>
+          <section className="text-gray-600 body-font mt-4">
+            <div className="flex flex-wrap">
+                <div className="flex flex-wrap w-1/2">
                   <a href="https://en.wikipedia.org/wiki/Polycarbonate" class="w-full md:w-1/3 h-40 m-2 p-2 flex flex-col justify-between text-left rounded bg-gray-200  hover:bg-orange-200">
                       <p>Polycarbonate</p>
                       <p className='border-t-2 border-white text-2xl font-bold'>PC</p>
@@ -59,4 +59,4 @@ function Polymers() {
   )
 }
 
-export default AppWrap(MotionWrap(Polymers),'polymers');
+export default MotionWrap(Polymers);
