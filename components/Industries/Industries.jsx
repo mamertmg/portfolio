@@ -87,16 +87,16 @@ function Industries() {
             </>
             )}
           </motion.div>
-          <div class="py-2 sm:py-4 lg:py-8 max-w-5xl px-4 mx-auto sm:px-6 lg:px-8 flex flex-col">
-                <div>
+          <div class="py-2 sm:py-4 lg:py-8 max-w-5xl px-4 mx-auto sm:px-6 lg:px-8 flex flex-row md:relative md:left-20">
+                <div className="mx-4 md:mx-12 text-right">
                   <h3 class="font-bold text-3xl md:text-7xl">+12</h3>
                   <p class="md:mt-4 text-xl font-medium text-gray-900">Years</p>
                 </div>
-                <div>
+                <div className="mx-4 md:mx-12 text-right">
                     <h3 class="font-bold text-3xl md:text-7xl">+30</h3>
                     <p class="md:mt-4 text-xl font-medium text-gray-900">Customers</p>
                 </div>
-                <div>
+                <div className="mx-4 md:mx-12 text-right">
                     <h3 class="font-bold text-3xl md:text-7xl">55</h3>
                     <p class="md:mt-4 text-xl font-medium text-gray-900">Countries</p>
                 </div>

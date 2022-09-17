@@ -4,7 +4,7 @@ import { MotionWrap } from '../../wrapper';
 function Contact() {
   return (
     <section id="contact" className="container mx-auto h-screen text-center sm:py-8 lg:py-12">
-        <h2 className="mt-6 text-3xl font-bold leading-tight text-left text-black sm:text-4xl lg:text-5xl border-solid border-b-2">Contact</h2>
+        <h2 className="mt-6 text-3xl font-bold leading-tight text-right text-black sm:text-4xl lg:text-5xl border-solid border-b-2">Contact</h2>
         <div class="w-full max-w-2xl my-12 px-6 py-6 md:py-12 mx-auto bg-white rounded-md shadow-md dark:bg-gray-800">
           <h3 className="mt-2 text-2xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Take a coffee and chat with me</h3>
           <div class="grid grid-cols-1 gap-6 mt-6 sm:grid-cols-2 md:grid-cols-2">

@@ -4,7 +4,7 @@ import { MotionWrap } from '../../wrapper';
 
 function Business() {
   return (
-    <section id="services" className="container w-full mx-auto py-2 sm:py-4 lg:py-12">
+    <section id="services" className="container w-full min-h-screen mx-auto py-2 sm:py-4 lg:py-12">
       <h2 className="mt-6 text-3xl font-bold leading-tight text-left text-black sm:text-4xl lg:text-5xl border-solid border-b-2">What I can do for you</h2>
       <div className="px-4 mx-auto sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-5 mt-12 sm:grid-cols-3 lg:mt-20 lg:gap-x-12">
