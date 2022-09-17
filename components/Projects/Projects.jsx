@@ -5,38 +5,36 @@ import { motion } from 'framer-motion';
 
 function Projects() {
   return (
-    <section id="projects" className="container mx-auto md:h-screen text-center py-2 sm:py-4 lg:py-12">
-
-        <h2 className="mt-6 text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">My projects</h2>
+    <section id="projects" className="container mx-auto min-h-screen  py-2 sm:py-4 lg:py-12">   
+        <h2 className="mt-6 text-3xl font-bold leading-tight text-right text-black sm:text-4xl lg:text-5xl border-solid border-b-2">Portfolio</h2>
         <div className="flex flex-wrap shadow-lg rounded-lg cursor-pointer m-auto">
             <motion.div
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delayChildren: 0.5 }}
             className="app__work-portfolio"
             >
-                <div className="app__work-item flex justify-center items-center" key=''>
-                    <div className="flex flex-row flew-wrap ">
-                        <img className='w-40 h-40 object-contain' src='assets/projects/yelp-camp.png' alt='' />
-                        <motion.div
-                            whileHover={{ opacity: [0, 1] }}
-                            transition={{ duration: 0.25, ease: 'easeInOut', staggerChildren: 0.5 }}
-                            className="app__work-hover app__flex"
-                        >
-                            <a href='' target="_blank" rel="noreferrer">
-                                <motion.div
-                                    whileInView={{ scale: [0, 1] }}
-                                    whileHover={{ scale: [1, 0.90] }}
-                                    transition={{ duration: 0.25 }}
-                                    className="app__flex"
-                                >
-                                    <AiFillGithub />
-                                </motion.div>
-                            </a>
-                        </motion.div>
+                <div class="py-10 sm:py-16 lg:py-24">
+                    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+                        <div class="grid grid-cols-1 mt-12 lg:mt-24 gap-y-12 md:grid-cols-3 gap-x-6">
+                            <div class="md:px-4 lg:px-10">
+                                <img class="-rotate-1" src="https://cdn.rareblocks.xyz/collection/celebration/images/steps/3/team.jpg" alt="" />
+                                <h3 class="mt-8 text-xl font-semibold leading-tight text-black">Join as a team</h3>
+                                <p class="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                            </div>
+
+                            <div class="md:px-4 lg:px-10">
+                                <img class="rotate-1" src="https://cdn.rareblocks.xyz/collection/celebration/images/steps/3/work.jpg" alt="" />
+                                <h3 class="mt-8 text-xl font-semibold leading-tight text-black">Work from anywhere</h3>
+                                <p class="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                            </div>
+
+                            <div class="md:px-4 lg:px-10">
+                                <img class="-rotate-1" src="https://cdn.rareblocks.xyz/collection/celebration/images/steps/3/success.jpg" alt="" />
+                                <h3 class="mt-8 text-xl font-semibold leading-tight text-black">Get success</h3>
+                                <p class="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                            </div>
+                        </div>
                     </div>
-                        <h4 className="bold-text">Yelp Camp</h4>
-                        <p className="p-text" style={{ marginTop: 10 }}>Description</p>
-                        <p className="p-text">EJS</p>
                 </div>
             </motion.div>
         </div>

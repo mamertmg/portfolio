@@ -10,7 +10,7 @@ export default function Navbar() {
     <nav className="w-full">
       <div className="flex justify-between items-center">
         <ul className="md:flex md:flex-1 md:justify-end md:items-end list-none hidden">
-        {[ 'about me', 'services', 'industries', 'polymers', 'projects','contact'].map((item) => (
+        {[ 'about me', 'services', 'industries', 'polymers', 'portfolio','contact'].map((item) => (
           <li className="flex flex-row justify-center items-center pointer m-2" key={`link-${item}`}>
             <a className=" ease-in-out transition-all duration-300 text-gray-600 hover:font-bold hover:text-rose-600" href={`#${item}`}>{item}</a>
           </li>
@@ -33,7 +33,7 @@ export default function Navbar() {
               </div>
 
               <ul className="my-5 flex flex-col items-end ">
-                {['about me', 'services', 'industries', 'polymers', 'my projects', 'contact'].map((item) => (
+                {['about me', 'services', 'industries', 'polymers', 'portfolio', 'contact'].map((item) => (
                   <li className="my-2" key={item}>
                     <a className="uppercase transition-colors duration-200 transform text-gray-600 hover:font-bold hover:text-rose-600" href={`#${item}`} onClick={() => setToggle(false)}>
                       {item}

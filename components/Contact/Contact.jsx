@@ -3,9 +3,10 @@ import { MotionWrap } from '../../wrapper';
 
 function Contact() {
   return (
-    <section id="contact" className="container mx-auto min-h-screen text-center py-10 sm:py-16 lg:py-24">
-      <div class="w-full max-w-2xl my-12 px-6 py-6 md:py-12 mx-auto bg-white rounded-md shadow-md dark:bg-gray-800">
-          <h2 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Take a coffee and chat with me</h2>
+    <section id="contact" className="container mx-auto h-screen text-center sm:py-8 lg:py-12">
+        <h2 className="mt-6 text-3xl font-bold leading-tight text-left text-black sm:text-4xl lg:text-5xl border-solid border-b-2">Contact</h2>
+        <div class="w-full max-w-2xl my-12 px-6 py-6 md:py-12 mx-auto bg-white rounded-md shadow-md dark:bg-gray-800">
+          <h3 className="mt-2 text-2xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Take a coffee and chat with me</h3>
           <div class="grid grid-cols-1 gap-6 mt-6 sm:grid-cols-2 md:grid-cols-2">
               <a href="#" class="flex flex-col items-center px-4 py-3 text-gray-700 transition-colors duration-200 transform rounded-md dark:text-gray-200 hover:bg-blue-200 dark:hover:bg-blue-500">
                   <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
@@ -42,7 +43,7 @@ function Contact() {
               </div>
 
               <div class="flex justify-center mt-6">
-                  <button class="px-4 py-2 text-white transition-colors duration-200 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600">Send Message</button>
+                  <button class="px-4 py-2 text-white transition-colors duration-200 transform bg-rose-600 rounded-md hover:bg-rose-700 focus:outline-none focus:bg-gray-600">Send Message</button>
               </div>
           </div>
       </div>

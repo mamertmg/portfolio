@@ -3,8 +3,8 @@ import { MotionWrap } from '../../wrapper';
 
 function Polymers() {
   return (
-        <div id="polymers" className="container mx-auto min-h-screen text-center py-2 sm:py-4 lg:py-12">
-          <h2 className="mt-6 text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Passion for plastics</h2>
+        <div id="polymers" className="container mx-auto min-h-screen  md:h-screen py-2 sm:py-4 lg:py-12">
+          <h2 className="mt-6 text-3xl font-bold leading-tight text-left text-black sm:text-4xl lg:text-5xl border-solid border-b-2">Polymers expertise</h2>
           <section className="text-gray-600 body-font mt-4">
             <div className="flex flex-wrap">
                 <div className="flex flex-wrap w-1/2">

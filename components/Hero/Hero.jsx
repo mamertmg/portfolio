@@ -8,7 +8,7 @@ function Hero() {
   return (
       <section id="hero" className="container block md:flex md:flex-row mx-auto min-h-screen text-center py-2 sm:py-4 lg:py-12">
         <div className='lg:flex text-center md:text-left'>
-          <div className='flex-1 md:max-w-[558px] mt-2'>
+          <div className='flex-1  mt-2'>
             <h3 className='text-[18px] md:text-xl font-semibold my-2'>
               Hola! I'm
             </h3>
