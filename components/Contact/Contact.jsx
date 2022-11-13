@@ -3,7 +3,7 @@ import {contactData} from '../../constants/data'
 
 function Contact() {
   return (
-    <section id="Contact" className="container mx-auto w-full bg-contact">
+    <section id="Contact" className="container mx-auto w-full bg-contact rounded p-4 md:p-8">
         <h2 className='h2 text-white'>Contact me</h2>
         <div className="lg:w-1/2 md:w-2/3 mx-auto">
           <div className="flex flex-wrap -m-2">
@@ -26,7 +26,7 @@ function Contact() {
               </div>
             </div>
             <div className="p-2 w-full">
-              <button className="flex mx-auto text-white bg-accent border-0 py-2 px-8 focus:outline-none hover:bg-accent rounded text-lg">Send me a message</button>
+              <button className="flex mx-auto text-white bg-accent border-0 py-2 px-8 focus:outline-none hover:bg-accent rounded md:text-md">Send me a message</button>
             </div>
             <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
               <p className="text-white">{contactData[0].email}</p>

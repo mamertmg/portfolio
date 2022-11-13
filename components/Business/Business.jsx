@@ -4,7 +4,7 @@ import {businessData} from '../../constants/data'
 
 function Business() {
   return (
-    <section id="Services" className="container mx-auto md:h-screen">
+    <section id="Services" className="container mx-auto ">
       <h2 className="h2">How I'll Grow Your Business</h2>
       <div className="grid grid-cols-3 justify-center items-center">
         {businessData.map((item) => (
