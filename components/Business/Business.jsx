@@ -4,7 +4,7 @@ import {businessData} from '../../constants/data'
 
 function Business() {
   return (
-    <section id="Services" className="container mx-auto ">
+    <section id="Services" className="container mx-auto h-screen py-4 md:py-8">
       <h2 className="h2">How I'll Grow Your Business</h2>
       <div className="grid grid-cols-3 justify-center items-center">
         {businessData.map((item) => (
@@ -12,7 +12,7 @@ function Business() {
                   <div>
                       {item.icon}
                       <h3 className="mt-4 text-lg font-semibold text-black">{item.name}</h3>
-                      <p className="mt-4 text-base">{item.description}</p>
+                      <p className="mt-4 text-text">{item.description}</p>
                   </div>
               </div>
         ))}

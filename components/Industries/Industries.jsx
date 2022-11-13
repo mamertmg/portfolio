@@ -16,7 +16,7 @@ function Industries() {
   };
 
   return (
-    <section id="Industries" className="container mx-auto h-full py-4 md:py-8">
+    <section id="Industries" className="container mx-auto h-full py-4 md:py-8 md:h-screen">
         <h2 className="h2 text-right">Industries and Customers</h2>
           <div className="flex flex-row flex-wrap justify-center items-center py-4 md:py-12 mx-auto">
             {industryData.map((item) => (
@@ -27,7 +27,7 @@ function Industries() {
                 className="w-4/5 md:w-1/4 mx-auto"
                 key={item.name}
               >
-                <div className="p-3 md:p-6 rounded-3xl">
+                <div className="p-3 md:p-6 rounded-3x ">
                   <Image width="100%" height="50%" layout="responsive" objectFit="contain"  src={item.image} alt="content"/>
                   <h3 className="font-bold text-accent text-base md:text-md text-center mt-2">{item.name}</h3>
                 </div>

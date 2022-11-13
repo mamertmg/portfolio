@@ -3,7 +3,7 @@ import {contactData} from '../../constants/data'
 
 function Contact() {
   return (
-    <section id="Contact" className="container mx-auto w-full bg-contact rounded p-4 md:p-8">
+    <section id="Contact" className="container mx-auto w-full md:h-full bg-contact rounded p-4 md:p-8">
         <h2 className='h2 text-white'>Contact me</h2>
         <div className="lg:w-1/2 md:w-2/3 mx-auto">
           <div className="flex flex-wrap -m-2">
