@@ -1,4 +1,4 @@
-const title = 'Alberto Márquez – The Full Stack Chemical Engineer.';
+const title = 'Alberto Márquez';
 const description = 'Personal website of Alberto Márquez - The Full Stack Chemical Engineer';
 
 const SEO = {

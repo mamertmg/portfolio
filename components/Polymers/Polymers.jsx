@@ -1,10 +1,9 @@
 import React from 'react'
-import { MotionWrap } from '../../wrapper';
 
 function Polymers() {
   return (
-        <div id="polymers" className="container mx-auto min-h-screen  md:max-h-screen py-2">
-          <h2 className="mt-6 text-3xl font-bold leading-tight text-left text-black sm:text-4xl lg:text-5xl border-solid border-b-2">Polymers expertise</h2>
+        <section id="Polymers" className="container mx-auto md:h-screen">
+          <h2 className='h2'>Polymers expertise</h2>
           <section className="text-gray-600 body-font mt-4">
             <div className="flex flex-wrap">
                 <div className="flex flex-wrap w-1/2">
@@ -55,8 +54,8 @@ function Polymers() {
                     </a>
               </div>
           </section>
-        </div>
+        </section>
   )
 }
 
-export default MotionWrap(Polymers);
+export default Polymers;
