@@ -6,7 +6,7 @@
 
 @layer base{
   .h2 {
-    @apply text-xl sm:text-3xl font-bold leading-tight text-black border-solid border-b-2;
+    @apply text-xl sm:text-3xl font-bold leading-tight text-title border-solid border-b-2;
   }
 }
 

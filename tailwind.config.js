@@ -7,11 +7,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        hero: '#00092d',
-        body: '#f9f9ff',
-        contact: '#04091e',
-        accent: "#315CFD",
-        title: "#222222",
+        body: '#eff1f3',
+        contact: '#223843',
+        accent: "#d77a61",
+        title: "#223843",
         text: '#777777'
       }
     },

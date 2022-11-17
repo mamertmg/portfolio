@@ -4,7 +4,7 @@ function Polymers() {
   return (
         <section id="Polymers" className="container mx-auto md:h-screen py-2">
           <h2 className='h2 text-center md:text-left'>Polymers expertise</h2>
-          <section className="text-gray-600 body-font mt-4">
+          <section className="text-text body-font mt-4">
             <div className="flex flex-wrap">
                 <div className="flex flex-wrap w-1/2">
                   <a href="https://en.wikipedia.org/wiki/Polycarbonate" class="w-full md:w-1/3 h-40 m-2 md:p-2 flex flex-col justify-between text-left rounded bg-gray-200  hover:bg-orange-200">

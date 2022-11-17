@@ -5,13 +5,13 @@ import { motion } from 'framer-motion';
 function Hero() {
   return (
     <section className="container mx-auto md:h-screen py-4">
-      <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
+      <div className="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
         <div class="mx-auto text-left md:max-w-lg lg:max-w-2xl md:text-center">
-            <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl lg:leading-tight">
+            <h2 class="text-3xl font-bold leading-normal text-title sm:text-4xl lg:text-5xl lg:leading-tight">
                 I am chemical engineer that can &nbsp;
-                <span class="relative inline-block">
-                    <span class="absolute inline-block w-full h-2 bg-accent bottom-1.5"></span>
-                    <span class="relative"> develop your websites </span>
+                <span className="relative inline-block">
+                    <span className="absolute inline-block w-full h-2 bg-accent bottom-0.5"></span>
+                    <span> develop your websites </span>
                 </span>
             </h2>
         </div>
