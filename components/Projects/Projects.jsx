@@ -11,7 +11,7 @@ function Projects() {
                         <div class="overflow-hidden shadow-lg rounded-lg h-90 w-60 md:w-80 cursor-pointer m-auto p-2">
                             <a href={item.link} class="w-full block h-full">
                                 <Image alt={item.type} src={item.image} width="100%" height="50%" layout="responsive" objectFit="contain" />
-                                <div class="bg-white dark:bg-gray-800 w-full p-4">
+                                <div class="bg-white dark:bg-contact w-full p-4">
                                     <p class="text-accent text-base md:text-md font-medium">
                                         {item.type}
                                     </p>
