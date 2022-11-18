@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion } from 'framer-motion';
 import { HiMenuAlt4, HiX } from 'react-icons/hi';
+import {AiOutlineMenu} from 'react-icons/ai'
 import { navData } from '../../constants/data'
 
 export default function Navbar() {
@@ -10,17 +11,18 @@ export default function Navbar() {
   return (
     <nav className="container mx-auto w-full">
       <div className="flex flex-row justify-right items-center">
-        <ul className="md:flex md:flex-1  md:justify-end md:items-end list-none hidden">
+        <ul className="md:flex md:flex-1 md:justify-end md:items-end list-none hidden">
           {navData.map((item) => (
             <li className="flex flex-row justify-center items-center pointer m-2" key={`link-${item.name}`}>
               <a className=" ease-in-out transition-all duration-300  hover:font-bold hover:text-accent" href={`#${item.name}`}>{item.name}</a>
             </li>
           ))}
         </ul>
-          <HiMenuAlt4 
-            className="w-6 h-6 md:hidden rounded-full bg-accent text-white" 
-            onClick={() => setToggle(true)} />
-          {toggle && (
+        <AiOutlineMenu 
+          className="w-10 h-10 md:hidden rounded-full bg-accent text-white p-2" 
+          onClick={() => setToggle(true)}
+        />
+        {toggle && (
             <motion.div
               whileInView={{ x: [0, 0] }}
               transition={{ duration: 0.85, ease: 'easeOut' }}
@@ -28,14 +30,14 @@ export default function Navbar() {
             > 
               <div className="">
                 <HiX
-                  className="w-6 h-6 rounded-full text-white"
+                  className="w-6 h-6 rounded-full text-accent"
                   onClick={() => setToggle(false)} />                
               </div>
 
-              <ul className="flex flex-col justify-start">
+              <ul className="grid grid-cols-1 align-middle">
                 {navData.map((item) => (
-                  <li key={item.name}>
-                    <a className="uppercase" href={`#${item.name}`} onClick={() => setToggle(false)}>
+                  <li key={item.name} className="flex flex-row justify-center py-4">
+                    <a className="uppercase text-text hover:text-accent" href={`#${item.name}`} onClick={() => setToggle(false)}>
                       {item.name}
                     </a>
                   </li>
@@ -43,7 +45,6 @@ export default function Navbar() {
               </ul>
             </motion.div>
           )}
-   
       </div>
     </nav>
   );
