@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from 'framer-motion';
-import { HiMenuAlt4, HiX } from 'react-icons/hi';
+import Image from "next/image";
 import {AiOutlineMenu} from 'react-icons/ai'
 import { navData } from '../../constants/data'
 
@@ -10,17 +10,19 @@ export default function Navbar() {
 
   return (
     <nav className="container mx-auto w-full">
-      <div className="flex flex-wrap justify-end items-center">
-        <ul className="md:flex md:flex-row justify-end list-none hidden w-full">
+      
+      <div className="flex flex-row justify-between items-center ">
+        <a href="#home" ><Image src="/icono.png" width={300} height={100} objectFit={"cover"}></Image></a>
+        <ul className="md:flex md:flex-row justify-end list-none hidden w-full h-[74px]">
           {navData.map((item) => (
             <li className="flex flex-row justify-center items-center pointer m-2" key={`link-${item.name}`}>
-              <a className=" ease-in-out transition-all duration-300  hover:font-bold hover:text-accent" href={`#${item.name}`}>{item.name}</a>
+              <a className=" ease-in-out transition-all duration-300  hover:font-bold hover:text-accent hover:text-2xl" href={`#${item.name}`}>{item.name}</a>
             </li>
           ))}
 
         </ul>
         <div className="w-10 h-10 flex align-middle justify-center items-center md:hidden rounded-full bg-accent text-white">
-          <AiOutlineMenu size="28px" onClick={() => setToggle(true)}/>
+          <AiOutlineMenu size="20px" onClick={() => setToggle(true)}/>
         </div  >
       </div>
         {toggle && (

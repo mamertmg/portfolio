@@ -9,9 +9,9 @@ export const navData = [
 ];
 
 export const businessData = [
-    { name: 'Business professional', icon: <HiCurrencyEuro size="36px"/>, description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."  },
-    { name: 'Polymers expert', icon: <HiBeaker size="36px"/>, description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."  },
-    { name: 'Web developer', icon: <HiCode size="36px"/>, description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."  },
+    { name: 'Business professional', icon: <HiCurrencyEuro size="36px"/>, description: "An account manager for global multinationals "  },
+    { name: 'Polymers expert', icon: <HiBeaker size="36px"/>, description: "Either Thermoplastics or Thermosets I have experience in the raw materials arena and the machinery."  },
+    { name: 'Web developer', icon: <HiCode size="36px"/>, description: "From frontend to backend I am able to build full stack applications based on Javascript and use top-notch technologies."  },
 ];
 
 export const contactData = [

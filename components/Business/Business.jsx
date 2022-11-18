@@ -14,7 +14,7 @@ function Business() {
                   <div>
                       {item.icon}
                       <h3 className="mt-4 text-base md:text-lg font-bold text-title">{item.name}</h3>
-                      <p className="mt-4 text-base md:text-lg text-text">{item.description}</p>
+                      <p className="mt-4 text-base md:text-lg text-title">{item.description}</p>
                   </div>
               </div>
         ))}
