@@ -10,7 +10,7 @@ function Hero() {
             <h2 className="text-3xl font-bold leading-normal text-title sm:text-4xl lg:text-5xl lg:leading-tight">
                 I am chemical engineer that &nbsp;
                 <span className="relative inline-block">
-                    <span className="absolute inline-block w-full h-2 bg-accent bottom-0.5 md:-bottom-1"></span>
+                    <span className="absolute inline-block md:w-full h-2 bg-accent md:-bottom-1"></span>
                     <span> develops your websites </span>
                 </span>
             </h2>
@@ -26,11 +26,11 @@ function Hero() {
           </motion.div>
 
           <div>
-                <h3 class="text-lg font-bold text-title">Hey, Welcome! I am Alberto, a full stack chemical engineer.</h3>
+                <h3 class="text-base md:text-lg font-bold text-title">Hey, Welcome! I am Alberto, a full stack chemical engineer.</h3>
                 <p class="mt-4 text-base md:text-lg text-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                 <p class="mt-4 text-base md:text-lg text-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
-                <h3 class="mt-8 text-lg font-bold text-title">How do I do this without any investment?</h3>
+                <h3 class="mt-8 text-base md:text-lg font-bold text-title">How do I do this without any investment?</h3>
                 <p class="mt-4 text-base md:text-lg text-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
         </div>

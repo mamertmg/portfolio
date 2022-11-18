@@ -2,7 +2,7 @@ import React from 'react'
 
 function Polymers() {
   return (
-        <section id="Polymers" className="container mx-auto md:h-screen py-2">
+        <section id="Polymers" className="container mx-auto  py-4 md:py-8">
           <h2 className='h2 text-center md:text-left'>Polymers expertise</h2>
           <section className="text-text body-font mt-4">
             <div className="flex flex-wrap">
