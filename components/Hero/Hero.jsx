@@ -26,7 +26,8 @@ function Hero() {
           </motion.div>
 
           <div >
-                <h3 class="text-base md:text-lg font-bold text-title text-bold">Hey, Welcome! I am Alberto Márquez, a full stack chemical engineer.</h3>
+                <h3 class="text-base md:text-lg font-bold text-title text-bold">Hey, Welcome to my page!</h3>
+                <h3 class="text-base md:text-lg font-bold text-title text-bold">I am Alberto Márquez, a full stack chemical engineer.</h3>
                 <p class="mt-4 text-base md:text-lg text-title">Born in 1984 in Barcelona but living in Düsseldorf. I am a business professional working in the plastics/polymers industry with more than 14 years experience.</p>
                 <p class="mt-4 text-base md:text-lg text-title">Chemical engineer as background, summed up with an MBA, I have been working for international organizations during my career and gathering vast experience in Sales, Marketing and Produt Development.</p>
 
