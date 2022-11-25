@@ -12,7 +12,7 @@ function Hero() {
             variants={staggerContainer(0.5, 1)}
             initial='hidden'
             whileInView={'show'}
-            className="mx-auto md:w-full text-center max-w-5xl px-4  sm:px-6 lg:px-8"
+            className="mx-auto md:w-full text-left max-w-5xl px-4  sm:px-6 lg:px-8"
         >
           <motion.div
                 variants={fadeIn('down', 'tween', 0.2, 1.1)}
