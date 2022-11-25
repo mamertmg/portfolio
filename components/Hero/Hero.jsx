@@ -8,7 +8,7 @@ function Hero() {
       <div className="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
         <div className="mx-auto text-center md:max-w-lg lg:max-w-2xl">
             <h2 className="text-3xl font-bold leading-normal text-title sm:text-4xl lg:text-5xl lg:leading-tight">
-                I am chemical engineer that &nbsp;
+                I am a chemical engineer that &nbsp;
                 <span className="relative inline-block">
                     <span className="absolute inline-block md:w-full h-2 bg-accent md:-bottom-1"></span>
                     <span> develops your websites </span>

@@ -32,5 +32,6 @@ export const projectsData = [
     {name: 'Electronics Online shop', link:'https://ecommerce-sanity-stripe-nu-ten.vercel.app', image: '/assets/projects/ecommerce.png', type: 'e-commerce' },
     {name: 'Fitness Studio website', link:'https://gym-landing-page-puce.vercel.app', image: '/assets/projects/gym-landingpage.png', type: 'landing page'},
     {name: 'Webdeveloper blog',link:'https://blog-markdown-plum.vercel.app', image: '/assets/projects/blog-markdown.png', type: 'blog'},
-    {name: 'Github search engine', link: 'https://github-search-gamma-olive.vercel.app/', image: '/assets/projects/github-search.png', type: 'web application'}
+    {name: 'Github search engine', link: 'https://github-search-gamma-olive.vercel.app/', image: '/assets/projects/github-search.png', type: 'web application'},
+    {name: 'Shop e-commerce', link: 'https://ecommerce-shop-seven.vercel.app/', image: '/assets/projects/shop-ecommerce.png', type: 'e-commerce'},
 ]
