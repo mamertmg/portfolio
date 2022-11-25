@@ -16,8 +16,8 @@ function Industries() {
   };
 
   return (
-    <section id="Industries" className="container mx-auto py-4 md:py-8">
-        <h2 className="h2 text-center md:text-right">Industries and Customers</h2>
+    <section id="Industries" className="container mx-auto md:h-[800px]  py-4 md:py-8">
+        <h2 className="h2 text-center md:text-right">The industries and customers I have worked with</h2>
           <div className="flex flex-row flex-wrap justify-center items-center py-4 md:py-12 mx-auto">
             {industryData.map((item) => (
               <motion.div
