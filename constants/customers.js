@@ -26,6 +26,7 @@ import smp from '../public/assets/customers/smp-logo.png'
 import whirlpool from '../public/assets/customers/whirlpool-logo.png'
 import yanfeng from '../public/assets/customers/yanfeng-logo.png'
 import frisokar from '../public/assets/customers/frisokar-logo.png'
+import hager from '../public/assets/customers/hager-logo.png'
 
 export default {
     antolin,
@@ -34,6 +35,7 @@ export default {
     bsh,
     continental,
     electrolux,
+    hager,
     ert,
     faurecia,
     grammer,
